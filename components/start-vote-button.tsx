@@ -2,7 +2,6 @@
 
 import { Button } from "./ui/button";
 import { useVote } from "@/hooks/useVote";
-import { IconMaximize, IconMinimize } from "@tabler/icons-react";
 import { useRouter } from "next/navigation";
 
 export const StartVoteButton = () => {

@@ -5,7 +5,6 @@ import { AnimatedNumber } from "@/components/ui/animated-number";
 import { useEffect, useState } from "react";
 import { IconStarFilled } from "@tabler/icons-react";
 import confetti from "canvas-confetti";
-import { Progress } from "@/components/ui/progress";
 const MotionImage = motion.create(Image)
 
 export default function Slide() {

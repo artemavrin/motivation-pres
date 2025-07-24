@@ -1,14 +1,10 @@
 'use client';
 
-import { Check } from "@/components/check";
 import { Badge } from "@/components/ui/badge";
 import { BorderTrail } from "@/components/ui/border-trail";
 import { Button } from "@/components/ui/button";
 import { TextEffect } from "@/components/ui/text-effect";
-import { TextShimmer } from "@/components/ui/text-shimmer";
-import { IconArrowUp, IconAssembly, IconCalendar, IconChevronCompactDown, IconChevronDown, IconStack2Filled, IconWand } from "@tabler/icons-react";
-import { motion } from "motion/react";
-import next from "next";
+import { IconArrowUp, IconCalendar, IconChevronDown, IconStack2Filled, IconWand } from "@tabler/icons-react";
 import { useEffect, useRef, useState } from "react";
 
 type Task = {

@@ -1,5 +1,4 @@
 import { SlideCard } from "@/components/slide-card";
-import Image from "next/image";
 
 export default function Slide() {
 

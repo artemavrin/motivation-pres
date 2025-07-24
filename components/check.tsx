@@ -1,5 +1,5 @@
 "use client"
-import { IconCheck, IconCircleCheckFilled, IconExclamationCircleFilled } from "@tabler/icons-react";
+import { IconCircleCheckFilled, IconExclamationCircleFilled } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
 import { cn } from "@/lib/utils";
 

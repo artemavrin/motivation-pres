@@ -1,11 +1,8 @@
 "use client"
 
 import { TextLoop } from "@/components/ui/text-loop";
-import Image from "next/image";
 import { ImageCard } from "@/components/avatar-card";
-import { motion } from "motion/react";
 
-const MotionImage = motion.create(Image)
 
 export default function Home() {
   return (

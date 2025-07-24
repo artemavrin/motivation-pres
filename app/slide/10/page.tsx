@@ -1,18 +1,12 @@
 "use client";
-import Image from "next/image";
-import { motion, useAnimate } from "motion/react";
-import { AnimatedNumber } from "@/components/ui/animated-number";
-import { useEffect, useState } from "react";
-import { IconArrowBarToRight, IconArrowRampRight, IconCalendar, IconCheck, IconCircleCheck, IconCircleCheckFilled, IconStar, IconStarFilled } from "@tabler/icons-react";
-import confetti from "canvas-confetti";
-import { Progress } from "@/components/ui/progress";
+import { useAnimate } from "motion/react";
+import { useState } from "react";
+import { IconArrowBarToRight, IconCircleCheckFilled, IconStarFilled } from "@tabler/icons-react";
 import { ImageCard } from "@/components/avatar-card";
 import { Skill } from "@/components/skill";
 import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { div } from "motion/react-client";
-const MotionImage = motion.create(Image)
 
 export default function Slide() {
 

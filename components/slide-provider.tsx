@@ -3,7 +3,7 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
-const countSlides = 14
+const countSlides = 16
 
 
 export const SlideProvider = ({ children }: { children: React.ReactNode }) => {

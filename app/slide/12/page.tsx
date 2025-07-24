@@ -1,20 +1,14 @@
-"use client"
-
+import { SlideCard } from "@/components/slide-card";
 import Image from "next/image";
 
-export default function Home() {
+export default function Slide() {
 
     return (
-        <>
-            <div className="flex flex-col h-full w-full items-center justify-center gap-10">
-                <h1 className="text-8xl font-bold gradient-text animate-fade-down uppercase">риски и барьеры</h1>
-
-                <div className="flex items-center gap-4">
-                    <Image src="/cards/05.png" alt="components" width={380} height={100} className="animate-fade-down animate-duration-[500ms] invert dark:invert-0" />
-                    <Image src="/cards/06.png" alt="components" width={380} height={100} className="animate-fade-down animate-duration-[1000ms] invert dark:invert-0" />
-                </div>
-
-            </div>
-        </>
+        <SlideCard
+            image="/solutions/05.png"
+            title="индивидуальное развитие"
+            description={["создание индивидуальных планов развития", "анализ сотрудников на основании выполненных работ"]}
+            extraImage={<Image src="/avatars/bento-14-avatar.png" alt="components" width={113} height={100} className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2" />}
+        />
     );
 }

@@ -29,7 +29,7 @@ export const useVote = (join?:boolean, onReset?: () => void) => {
     }
 
     useEffect(() => {
-        ref.current = new WebSocket("ws://localhost:8080")
+        ref.current = new WebSocket("wss://ws.mavrinsoft.com")
         ref.current.onopen = () => {
             if (join) {
                 ref.current?.send(JSON.stringify(["join", {}]));

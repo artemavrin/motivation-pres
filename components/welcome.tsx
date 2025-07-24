@@ -8,7 +8,7 @@ export const Welcome = () => {
             <div className="flex flex-col items-center gap-1">
             <QRCode
                 className="size-96 dark:invert"
-                data="https://www.haydenbleasel.com/"
+                data="https://presentation.mavrinsoft.com/vote"
                 foreground="#000"
                 background="#fff"
             />
